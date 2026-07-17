@@ -1,6 +1,5 @@
 
 
-import FashionableFlame from "../assets/project/fashionableflame.png";
 import gymImage from "../assets/project/gym.png";
 import houseRentalImage from "../assets/project/house.rental.png";
 import resturentImage from "../assets/project/resturent.png";
