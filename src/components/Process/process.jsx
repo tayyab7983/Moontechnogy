@@ -1,5 +1,5 @@
 import SectionTitle from "../Common/SectionTitle";
-import process from "../../data/process";
+import process from "../../data/Process";
 import ProcessCard from "./ProcessCard";
 
 function Process() {
