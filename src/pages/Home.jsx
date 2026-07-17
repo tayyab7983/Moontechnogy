@@ -3,7 +3,7 @@ import Hero from "../components/Hero/Hero";
 import About from "../components/About/About";
 import Services from "../components/Services/Services";
 import Projects from "../components/Projects/Projects";
-import Process from "../components/Process/Process";
+import Process from "../components/Process/process";
 import Approach from "../components/Approach/Approach";
  import Responsive from "../components/Responsive/Responsive";
 import Footer from "../components/Footer/Footer";
