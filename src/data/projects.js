@@ -4,7 +4,7 @@ import gymImage from "../assets/project/gym.png";
 import houseRentalImage from "../assets/project/house.rental.png";
 import resturentImage from "../assets/project/resturent.png";
 import salonImage from "../assets/project/salon.png";
- import FashionableFlame from "../assets/project/FashionableFlame.png";
+
 const projects = [
 
 
