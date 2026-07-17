@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --ink: #07080c;
+  --ink-soft: #0d0f16;
+  --panel: #12141c;
+  --line: rgba(233, 236, 245, 0.08);
+  --line-strong: rgba(233, 236, 245, 0.16);
+  --text: #e9ecf5;
+  --text-muted: #8a90a3;
+  --text-faint: #4b4f5e;
+  --moon: #cfe0ff;
+  --moon-soft: rgba(207, 224, 255, 0.14);
+  --moon-warm: #f3e3b8;
+
+  --font-display: 'Spectral', serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --container: 1200px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+/* ---------- Global horizontal-overflow safety net ---------- */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+#root {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* ---------- Global "never touch the edge" safety net ---------- */
+/* Har section ko minimum safe padding do, chahe uske andar koi bhi
+   class ho ya na ho — isse content kabhi screen ke edge se nahi chipkega.
+   Agar kisi element ne apna khud ka px-* class laga rakha hai to
+   Tailwind ki utility specificity isse override kar degi, koi issue nahi. */
+section,
+header,
+footer {
+  padding-left: max(20px, env(safe-area-inset-left));
+  padding-right: max(20px, env(safe-area-inset-right));
+}
+
+@media (min-width: 640px) {
+  section,
+  header,
+  footer {
+    padding-left: max(32px, env(safe-area-inset-left));
+    padding-right: max(32px, env(safe-area-inset-right));
+  }
+}
+
+@media (min-width: 1024px) {
+  section,
+  header,
+  footer {
+    padding-left: max(48px, env(safe-area-inset-left));
+    padding-right: max(48px, env(safe-area-inset-right));
+  }
+}
+/* ------------------------------------------------------------ */
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+
+.wrap { max-width: var(--container); margin: 0 auto; padding: 0 28px; }
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--moon);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 13px 22px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: transparent;
+  color: var(--text);
+  transition: all 0.2s ease;
+}
+.btn:hover { border-color: var(--moon); color: var(--moon); }
+
+.btn-solid { background: var(--text); color: var(--ink); border-color: var(--text); }
+.btn-solid:hover { background: var(--moon); border-color: var(--moon); color: var(--ink); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+/* Hide Scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html,
+body{
+    background:#050505;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+canvas{
+    display:block;
+}
