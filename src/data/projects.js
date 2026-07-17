@@ -1,49 +1,11 @@
-// const projects = [
-//   {
-//     id: 1,
-//     number: "01",
-//     category: "Website Development",
-//     title: "Business Website",
-//     description:
-//       "Modern business website with premium UI, animations and responsive layout.",
-//   },
 
-//   {
-//     id: 2,
-//     number: "02",
-//     category: "Mobile App",
-//     title: "Fitness Application",
-//     description:
-//       "Cross-platform mobile application with beautiful UI and modern features.",
-//   },
-
-//   {
-//     id: 3,
-//     number: "03",
-//     category: "AI Automation",
-//     title: "AI Business Assistant",
-//     description:
-//       "AI chatbot with workflow automation and intelligent customer support.",
-//   },
-
-//   {
-//     id: 4,
-//     number: "04",
-//     category: "SaaS Product",
-//     title: "CRM Dashboard",
-//     description:
-//       "Complete SaaS dashboard with analytics, authentication and subscriptions.",
-//   },
-// ];
-
-// export default projects;
 
 import FashionableFlame from "../assets/project/fashionableflame.png";
 import gymImage from "../assets/project/gym.png";
 import houseRentalImage from "../assets/project/house.rental.png";
 import resturentImage from "../assets/project/resturent.png";
 import salonImage from "../assets/project/salon.png";
-
+ import FashionableFlame from "../assets/project/FashionableFlame.png";
 const projects = [
 
 
