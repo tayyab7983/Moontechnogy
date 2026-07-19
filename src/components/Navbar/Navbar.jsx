@@ -37,7 +37,7 @@ function Navbar() {
           className="text-lg sm:text-2xl lg:text-3xl font-bold tracking-[3px] sm:tracking-[6px] uppercase"
         >
           <span className="text-white">Moon</span>
-          <span className="text-[#c9a44c]">Technogy</span>
+          <span className="text-[#c9a44c]">Technology</span>
         </Link>
 
         {/* Desktop Menu */}
