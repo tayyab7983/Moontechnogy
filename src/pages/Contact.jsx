@@ -18,7 +18,7 @@
 // };
 
 // const contactRows = [
-//   { icon: Mail, label: "Email", value: "hello@moontechnogy.com" },
+//   { icon: Mail, label: "Email", value: "hello@moontechnology.com" },
 //   { icon: Phone, label: "Phone", value: "+91 XXXXX XXXXX" },
 //   { icon: MapPin, label: "Location", value: "India · Remote-first" },
 // ];
@@ -415,7 +415,7 @@ const initialForm = {
 };
 
 const contactRows = [
-  { icon: Mail, label: "Email", value: "hello@moontechnogy.com" },
+  { icon: Mail, label: "Email", value: "hello@moontechnology.com" },
   { icon: Phone, label: "Phone", value: "+91 XXXXX XXXXX" },
   { icon: MapPin, label: "Location", value: "India · Remote-first" },
 ];

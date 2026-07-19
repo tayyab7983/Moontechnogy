@@ -25,7 +25,7 @@ function Footer() {
           {/* Copyright */}
 
           <p className="text-sm text-gray-500">
-            © 2026 MoonTechnogy. All Rights Reserved.
+            © 2026 MoonTechnology. All Rights Reserved.
           </p>
 
           {/* Social Icons */}

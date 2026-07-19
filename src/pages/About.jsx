@@ -111,7 +111,7 @@ function About() {
                 leading-9
                 "
               >
-                MoonTechnogy is a premium digital agency creating
+                MoonTechnology is a premium digital agency creating
                 modern websites, AI automation, SaaS platforms and
                 mobile applications.
 
@@ -203,7 +203,7 @@ function About() {
 
                   <p className="uppercase tracking-[6px] text-[#d4af37]">
 
-                    MoonTechnogy
+                    MoonTechnology
 
                   </p>
 
